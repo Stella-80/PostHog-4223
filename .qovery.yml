@@ -6,9 +6,6 @@ databases:
 - name: my-psql
   type: postgresql
   version: 12
-- name: my-redis
-  type: redis
-  version: 6
 routers:
 - name: posthog-router
   routes:
