@@ -1,0 +1,14 @@
+application:
+  name: posthog
+  project: CHANGEME
+  organization: CHANGEME
+databases:
+- name: my-psql
+  type: postgresql
+  version: 12
+routers:
+- name: posthog-router
+  routes:
+  - application_name: posthog
+    paths:
+    - "/"
