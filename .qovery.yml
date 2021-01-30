@@ -3,7 +3,7 @@ application:
   project: CHANGEME
   organization: CHANGEME
 databases:
-- name: my-psql
+- name: psql
   type: postgresql
   version: 12
 routers:
