@@ -1,14 +1,15 @@
+---
 application:
-  name: posthog
-  project: CHANGEME
-  organization: CHANGEME
+  name: "posthog"
+  project: "akenoX"
+  organization: "QoveryCommunity"
 databases:
-- name: psql
-  type: postgresql
-  version: 12
+- type: "POSTGRESQL"
+  name: "psql"
+  version: "12"
 routers:
-- name: posthog-router
+- name: "posthog-router"
   routes:
-  - application_name: posthog
+  - application_name: "posthog"
     paths:
     - "/"
